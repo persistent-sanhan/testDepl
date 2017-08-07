@@ -1,0 +1,26 @@
+language: node_js
+node_js:
+- '6'
+cache:
+  directories:
+  - node_modules
+install:
+- npm install
+- npm run validate
+notifications:
+  email:
+    recipients:
+    - sanket_bhalerao@persistent.co.in
+    on_success: change
+    on_failure: always
+deploy:
+- provider: cloudfoundry
+  api: https://api.ng.bluemix.net
+  username: $BLUEMIX_USER
+  password: $BLUEMIX_PASSWORD
+  organization: $BLUEMIX_ORGANIZATION
+  space: sanket_usSouth
+  manifest: manifest.yml
+  skip_ssl_validation: true
+  on:
+    branch: master

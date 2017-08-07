@@ -1,0 +1,23 @@
+{
+  "name": "testdepl",
+  "version": "1.0.0",
+  "description": "test deployment app",
+  "main": "./index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/persistent-sanhan/testDepl.git"
+  },
+  "author": "sanket bhalerao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/persistent-sanhan/testDepl/issues"
+  },
+  "homepage": "https://github.com/persistent-sanhan/testDepl#readme",
+  "engines": {
+    "node": "6.10.0"
+  }
+}
