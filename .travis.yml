@@ -6,7 +6,6 @@ cache:
   - node_modules
 install:
 - npm install
-- npm run validate
 notifications:
   email:
     recipients:
