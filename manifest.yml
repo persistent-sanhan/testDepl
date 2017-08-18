@@ -7,5 +7,5 @@ applications:
   host: testappsanket
   disk_quota: 256M
 env:
-  IOT_API_TOKEN : \\&g&PdHjDH+91JN-r5n 
-  test: \&lala
+  IOT_API_TOKEN : "&g&PdHjDH+91JN-r5n"
+  test: "&lala"
